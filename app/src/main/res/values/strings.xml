@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">LoadingLayyer</string>
+
+    <string name="aa_loadding">loadding...</string>
+    <string name="aa_error">error</string>
+    <string name="aa_empty">empty</string>
+    <string name="aa_reload">reload</string>
+
+</resources>
