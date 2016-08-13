@@ -9,7 +9,7 @@ import android.view.View;
  */
 public interface ILayerViewHelper {
 
-    void showVariableLayer(View view,LayerViewHelperImp.LayerStatus status);
+    void showVariableLayer(View view, LayerViewHelperImp.LayerStatus status);
 
     Context getContext();
 
@@ -20,6 +20,4 @@ public interface ILayerViewHelper {
     LayerViewHelperImp.LayerModel getLayerModel();
 
     void releaseMemory();
-
-
 }

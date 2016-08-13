@@ -17,15 +17,7 @@ android {
     }
 }
 
-// 发布maven包到本地
-//uploadArchives {
-//    repositories.mavenDeployer {
-//        repository(url: LOCAL_REPO_URL)
-//        pom.groupId = PROJ_GROUP
-//        pom.artifactId = PROJ_ARTIFACTID
-//        pom.version = PROJ_VERSION
-//    }
-//}
+
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
