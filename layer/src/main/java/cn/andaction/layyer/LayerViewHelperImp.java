@@ -44,24 +44,7 @@ public class LayerViewHelperImp implements ILayerViewHelper {
         if (mLayerStatus == status) {
             return;
         }
-
-        long cur = System.currentTimeMillis ();
-        long diff = cur - mLastSwitchTime;
-        long await = 0;
-        if (diff < 1000) {
-            await = 1000 - diff;
-        }
-        mLastSwitchTime = cur;
-        if (await > 0) {
-            mContainerView.postDelayed (new Runnable () {
-                @Override
-                public void run () {
-                    lazySwitchAction (view);
-                }
-            }, await);
-        } else {
-            lazySwitchAction (view);
-        }
+        lazySwitchAction(view);
         mLayerStatus = status;
     }
 

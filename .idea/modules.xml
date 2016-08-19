@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/LoaddingLayer.iml" filepath="$PROJECT_DIR$/LoaddingLayer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LoadingLayyer.iml" filepath="$PROJECT_DIR$/LoadingLayyer.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/layer/layer.iml" filepath="$PROJECT_DIR$/layer/layer.iml" />
     </modules>
